@@ -9,9 +9,29 @@ final todoListProvider = ChangeNotifierProvider<TodoListProvider>((ref) {
 class TodoListProvider extends ChangeNotifier {
   String dateString = "";
   DateTime date = DateTime.now();
-  bool isFinished = false;
 
-  List<TodoModel> todoList = [];
+  List<TodoModel> todoList = [
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+    // TodoModel(title: "test", description: "testDescription", time: DateTime.now()),
+  ];
 
   void addTodo(String title, String description, DateTime date) {
     todoList.add(
